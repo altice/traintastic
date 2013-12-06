@@ -8,6 +8,7 @@ class Train
   def initialize(model, speed)
     @model = model
     @speed = speed
+#changed something
   end
 
 
@@ -17,7 +18,7 @@ class Train
 
   # Returns the String type of power for this train.
 def power_source
-  if @model.include?('-A')
+  if @morubydel.include?('-A')
     'steam'
   else
     'diesel'
